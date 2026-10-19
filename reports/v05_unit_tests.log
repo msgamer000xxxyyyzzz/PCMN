@@ -1,0 +1,8 @@
+/opt/pyvenv/lib/python3.13/site-packages/torch/jit/_trace.py:1000: DeprecationWarning: `torch.jit.trace` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/pyvenv/lib/python3.13/site-packages/torch/jit/_trace.py:1139: DeprecationWarning: `torch.jit.trace_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+----------------------------------------------------------------------
+Ran 45 tests in 1.743s
+
+OK

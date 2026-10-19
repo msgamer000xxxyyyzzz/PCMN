@@ -1,0 +1,51 @@
+{
+  "checkpoint": "runs/v05_mini_demo/last.pt",
+  "corpus": "data/technical_bin",
+  "checkpoint_metadata": {
+    "step": 12,
+    "architecture": "pcmn",
+    "model_config": {
+      "vocab_size": 259,
+      "dim": 192,
+      "layers": 4,
+      "ff_mult": 3,
+      "conv_kernel": 4,
+      "dropout": 0.0,
+      "grad_checkpoint": false,
+      "scan_chunk": 128,
+      "memory_slots": 2,
+      "memory_base_half_life": 32,
+      "addressable_slots": 0
+    },
+    "tokenizer": "byte"
+  },
+  "corpus_metadata": {
+    "format": "PCMN-u32le-v1",
+    "tokenizer": "byte",
+    "vocab_size": 259,
+    "train_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_train.txt"
+    ],
+    "valid_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_valid.txt"
+    ],
+    "train": {
+      "tokens": 11599,
+      "documents": 1
+    },
+    "valid": {
+      "tokens": 7363,
+      "documents": 1
+    }
+  },
+  "validation_nll": 3.1340118,
+  "perplexity": 22.9659303,
+  "targets": 7362,
+  "documents": 1,
+  "skipped_documents": 0,
+  "context_chunk": 96,
+  "device": "cpu",
+  "elapsed_seconds": 0.761,
+  "definition": "Exhaustive teacher-forced validation; resets state at document boundaries",
+  "note": "Next-token likelihood is not generative/coding/tool-use quality"
+}

@@ -1,0 +1,25 @@
+{
+  "device": "cpu",
+  "torch": "2.10.0+cpu",
+  "context": 64,
+  "windows": 8,
+  "tokens_generated": 12,
+  "same_tokenizer": true,
+  "warning": "Different training budgets: not a scientific architecture-quality comparison",
+  "pcmn": {
+    "nll": 4.843981742858887,
+    "perplexity": 126.97392404019487,
+    "prefill_ms": 2.157679000447388,
+    "generation_including_prefill_ms": 9.289896999689518,
+    "generation_tokens_per_sec_including_prefill": 1291.7258394146952,
+    "parameters": 117192
+  },
+  "transformer": {
+    "nll": 2.159838080406189,
+    "perplexity": 8.66973374503953,
+    "prefill_ms": 1.0446489995956654,
+    "generation_including_prefill_ms": 5.494678999639291,
+    "generation_tokens_per_sec_including_prefill": 2183.9310359691194,
+    "parameters": 100160
+  }
+}

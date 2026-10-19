@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Trained weights and datasets: do not commit generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.idx
+runs/
+checkpoints/
+local_datasets/
+
+# Compiler/cache/build outputs
+CMakeFiles/
+CMakeCache.txt
+*.dll
+*.so
+*.pyd
+*.obj
+*.o
+*.lib
+*.exe
+__pycache__/
+*.log.tmp
+
+# Local experiment outputs
+benchmarks/hardware_local.json
+reports/local_*.json

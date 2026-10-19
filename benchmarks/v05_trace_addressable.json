@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs/v04_addressable_demo/last.pt",
+  "params": 149700,
+  "threads": 2,
+  "length": 64,
+  "backend": "torchscript_trace_step",
+  "device": "cpu",
+  "eager_tps": 1125.81,
+  "traced_tps": 2195.59,
+  "speedup": 1.95,
+  "max_abs_logits_diff": 0
+}

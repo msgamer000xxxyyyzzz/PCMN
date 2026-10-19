@@ -1,0 +1,54 @@
+[
+  {
+    "checkpoint": "runs/v03_smoke/last.pt",
+    "precision": "fp32",
+    "params": 117192,
+    "threads": 2,
+    "prompt_tokens": 256,
+    "generated_tokens": 40,
+    "prefill_ms": 5.16,
+    "decode_including_prefill_ms": 26.56,
+    "isolated_decode_tokens_per_second": 1869.17,
+    "end_to_end_tokens_per_second": 1506.17,
+    "memory_slots": 4
+  },
+  {
+    "checkpoint": "runs/v03_smoke/last.pt",
+    "precision": "dynamic_int8",
+    "params": 117192,
+    "threads": 2,
+    "prompt_tokens": 256,
+    "generated_tokens": 40,
+    "prefill_ms": 5.73,
+    "decode_including_prefill_ms": 46.8,
+    "isolated_decode_tokens_per_second": 973.95,
+    "end_to_end_tokens_per_second": 854.63,
+    "memory_slots": 4
+  },
+  {
+    "checkpoint": "runs/technical_smoke/last.pt",
+    "precision": "fp32",
+    "params": 100288,
+    "threads": 2,
+    "prompt_tokens": 256,
+    "generated_tokens": 40,
+    "prefill_ms": 2.28,
+    "decode_including_prefill_ms": 18.8,
+    "isolated_decode_tokens_per_second": 2422.03,
+    "end_to_end_tokens_per_second": 2127.99,
+    "memory_slots": 0
+  },
+  {
+    "checkpoint": "runs/technical_smoke/last.pt",
+    "precision": "dynamic_int8",
+    "params": 100288,
+    "threads": 2,
+    "prompt_tokens": 256,
+    "generated_tokens": 40,
+    "prefill_ms": 2.84,
+    "decode_including_prefill_ms": 37.69,
+    "isolated_decode_tokens_per_second": 1147.62,
+    "end_to_end_tokens_per_second": 1061.15,
+    "memory_slots": 0
+  }
+]

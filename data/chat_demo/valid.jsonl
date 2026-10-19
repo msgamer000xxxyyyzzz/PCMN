@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"Describe a dictionary in Python."},{"role":"assistant","content":"A dictionary maps keys to values, for example {'a': 1}."}]}
+{"messages":[{"role":"user","content":"Назови оператор сложения в Python."},{"role":"assistant","content":"Для сложения в Python используется оператор +."}]}

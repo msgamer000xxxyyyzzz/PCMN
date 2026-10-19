@@ -1,0 +1,8 @@
+{"messages":[{"role":"user","content":"What is a function in Python?"},{"role":"assistant","content":"A function is defined with def. Example: def add(a, b): return a + b"}]}
+{"messages":[{"role":"user","content":"Explain what a variable is."},{"role":"assistant","content":"A variable is a name bound to a value, such as count = 3."}]}
+{"messages":[{"role":"user","content":"What is recursion?"},{"role":"assistant","content":"Recursion is when a function calls itself. Provide a base case to stop."}]}
+{"messages":[{"role":"user","content":"Write a Python list comprehension of squares."},{"role":"assistant","content":"squares = [x*x for x in range(10)]"}]}
+{"messages":[{"role":"user","content":"Calculate 12 * 7 using a tool."},{"role":"assistant","content":"<tool_call>{\"name\":\"calculate\",\"arguments\":{\"expression\":\"12*7\"}}</tool_call>"},{"role":"tool","content":"{\"ok\": true, \"value\": \"84\"}"},{"role":"assistant","content":"12 times 7 is 84."}]}
+{"messages":[{"role":"user","content":"How do I read a UTF-8 file in Python?"},{"role":"assistant","content":"Use Path('notes.txt').read_text(encoding='utf-8') from pathlib."}]}
+{"messages":[{"role":"user","content":"Что такое алгоритм?"},{"role":"assistant","content":"Алгоритм — конечная последовательность определённых шагов для решения задачи."}]}
+{"messages":[{"role":"user","content":"Что такое двоичная система счисления?"},{"role":"assistant","content":"В двоичной системе используются цифры 0 и 1."}]}

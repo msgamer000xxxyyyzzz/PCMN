@@ -1,0 +1,12 @@
+{"messages": [{"role": "user", "content": "Вычисли точно: (996 + 947) * 35."}, {"role": "assistant", "content": "68005"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=818), Y=7. Найди Z."}, {"role": "assistant", "content": "1657"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=859, y=954. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "859"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_3(x), которая возвращает x + 42."}, {"role": "assistant", "content": "def sum_3(x):\n    return x + 42"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (638 + 25) * 37."}, {"role": "assistant", "content": "24531"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=263), Y=16. Найди Z."}, {"role": "assistant", "content": "574"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=151, y=645. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "151"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_7(x), которая возвращает x + 39."}, {"role": "assistant", "content": "def sum_7(x):\n    return x + 39"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (609 + 80) * 35."}, {"role": "assistant", "content": "24115"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=153), Y=17. Найди Z."}, {"role": "assistant", "content": "357"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=436, y=444. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "436"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_11(x), которая возвращает x + 41."}, {"role": "assistant", "content": "def sum_11(x):\n    return x + 41"}], "category": "code_generation"}

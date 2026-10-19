@@ -1,0 +1,7 @@
+params: 2273480 device: cpu state slots: 2
+{"step": 1, "train_nll": 6.041841, "val_nll": 5.096528, "val_ppl": 163.45336, "tokens_per_sec_train_incl_eval": 691.62, "elapsed_since_last_log_s": 0.19, "lr": 0.00015, "grad_norm": 13.0529}
+{"step": 3, "train_nll": 3.597299, "val_nll": 3.474028, "val_ppl": 32.26644, "tokens_per_sec_train_incl_eval": 1473.78, "elapsed_since_last_log_s": 0.17, "lr": 0.0002933926296998457, "grad_norm": 9.1521}
+{"step": 6, "train_nll": 3.811233, "val_nll": 2.918976, "val_ppl": 18.52231, "tokens_per_sec_train_incl_eval": 1913.97, "elapsed_since_last_log_s": 0.2, "lr": 0.00020671729424061788, "grad_norm": 7.2537}
+{"step": 9, "train_nll": 2.767511, "val_nll": 2.734561, "val_ppl": 15.40297, "tokens_per_sec_train_incl_eval": 1960.32, "elapsed_since_last_log_s": 0.2, "lr": 8.564899094051613e-05, "grad_norm": 5.2052}
+{"step": 12, "train_nll": 3.761945, "val_nll": 2.680273, "val_ppl": 14.58908, "tokens_per_sec_train_incl_eval": 1836.13, "elapsed_since_last_log_s": 0.21, "lr": 3e-05, "grad_norm": 6.1802}
+Checkpoint: runs/v05_mini_demo/last.pt

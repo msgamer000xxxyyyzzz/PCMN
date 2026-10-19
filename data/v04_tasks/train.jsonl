@@ -1,0 +1,80 @@
+{"messages": [{"role": "user", "content": "Вычисли точно: (533 + 436) * 18."}, {"role": "assistant", "content": "17442"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=804), Y=43. Найди Z."}, {"role": "assistant", "content": "1737"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=817, y=451. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "817"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_3(x), которая возвращает x + 23."}, {"role": "assistant", "content": "def sum_3(x):\n    return x + 23"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (246 + 596) * 22."}, {"role": "assistant", "content": "18524"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=228), Y=43. Найди Z."}, {"role": "assistant", "content": "585"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=967, y=542. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "967"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_7(x), которая возвращает x + 36."}, {"role": "assistant", "content": "def sum_7(x):\n    return x + 36"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (700 + 974) * 42."}, {"role": "assistant", "content": "70308"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=215), Y=23. Найди Z."}, {"role": "assistant", "content": "499"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=22, y=425. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "22"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_11(x), которая возвращает x + 24."}, {"role": "assistant", "content": "def sum_11(x):\n    return x + 24"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (150 + 29) * 42."}, {"role": "assistant", "content": "7518"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=834), Y=28. Найди Z."}, {"role": "assistant", "content": "1752"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=349, y=501. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "349"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_15(x), которая возвращает x + 26."}, {"role": "assistant", "content": "def sum_15(x):\n    return x + 26"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (83 + 680) * 3."}, {"role": "assistant", "content": "2289"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=561), Y=36. Найди Z."}, {"role": "assistant", "content": "1230"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=537, y=551. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "537"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_19(x), которая возвращает x + 33."}, {"role": "assistant", "content": "def sum_19(x):\n    return x + 33"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (954 + 722) * 9."}, {"role": "assistant", "content": "15084"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=636), Y=20. Найди Z."}, {"role": "assistant", "content": "1332"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=119, y=935. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "119"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_23(x), которая возвращает x + 6."}, {"role": "assistant", "content": "def sum_23(x):\n    return x + 6"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (832 + 451) * 26."}, {"role": "assistant", "content": "33358"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=106), Y=28. Найди Z."}, {"role": "assistant", "content": "296"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=793, y=912. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "793"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_27(x), которая возвращает x + 24."}, {"role": "assistant", "content": "def sum_27(x):\n    return x + 24"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (776 + 878) * 34."}, {"role": "assistant", "content": "56236"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=809), Y=10. Найди Z."}, {"role": "assistant", "content": "1648"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=347, y=125. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "347"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_31(x), которая возвращает x + 40."}, {"role": "assistant", "content": "def sum_31(x):\n    return x + 40"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (945 + 413) * 12."}, {"role": "assistant", "content": "16296"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=722), Y=18. Найди Z."}, {"role": "assistant", "content": "1498"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=437, y=647. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "437"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_35(x), которая возвращает x + 9."}, {"role": "assistant", "content": "def sum_35(x):\n    return x + 9"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (515 + 351) * 35."}, {"role": "assistant", "content": "30310"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=833), Y=47. Найди Z."}, {"role": "assistant", "content": "1807"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=628, y=750. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "628"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_39(x), которая возвращает x + 10."}, {"role": "assistant", "content": "def sum_39(x):\n    return x + 10"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (820 + 600) * 20."}, {"role": "assistant", "content": "28400"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=41), Y=23. Найди Z."}, {"role": "assistant", "content": "151"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=514, y=41. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "514"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_43(x), которая возвращает x + 21."}, {"role": "assistant", "content": "def sum_43(x):\n    return x + 21"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (490 + 476) * 36."}, {"role": "assistant", "content": "34776"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=93), Y=43. Найди Z."}, {"role": "assistant", "content": "315"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=127, y=278. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "127"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_47(x), которая возвращает x + 18."}, {"role": "assistant", "content": "def sum_47(x):\n    return x + 18"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (172 + 372) * 31."}, {"role": "assistant", "content": "16864"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=919), Y=37. Найди Z."}, {"role": "assistant", "content": "1949"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=225, y=407. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "225"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_51(x), которая возвращает x + 23."}, {"role": "assistant", "content": "def sum_51(x):\n    return x + 23"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (882 + 911) * 11."}, {"role": "assistant", "content": "19723"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=801), Y=5. Найди Z."}, {"role": "assistant", "content": "1617"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=590, y=401. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "590"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_55(x), которая возвращает x + 19."}, {"role": "assistant", "content": "def sum_55(x):\n    return x + 19"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (281 + 306) * 14."}, {"role": "assistant", "content": "8218"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=897), Y=42. Найди Z."}, {"role": "assistant", "content": "1920"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=548, y=70. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "548"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_59(x), которая возвращает x + 47."}, {"role": "assistant", "content": "def sum_59(x):\n    return x + 47"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (429 + 290) * 28."}, {"role": "assistant", "content": "20132"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=117), Y=21. Найди Z."}, {"role": "assistant", "content": "297"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=672, y=936. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "672"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_63(x), которая возвращает x + 44."}, {"role": "assistant", "content": "def sum_63(x):\n    return x + 44"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (45 + 204) * 41."}, {"role": "assistant", "content": "10209"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=4), Y=41. Найди Z."}, {"role": "assistant", "content": "131"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=28, y=74. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "28"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_67(x), которая возвращает x + 29."}, {"role": "assistant", "content": "def sum_67(x):\n    return x + 29"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (947 + 399) * 38."}, {"role": "assistant", "content": "51148"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=875), Y=46. Найди Z."}, {"role": "assistant", "content": "1888"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=392, y=825. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "392"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_71(x), которая возвращает x + 14."}, {"role": "assistant", "content": "def sum_71(x):\n    return x + 14"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (218 + 121) * 48."}, {"role": "assistant", "content": "16272"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=205), Y=29. Найди Z."}, {"role": "assistant", "content": "497"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=824, y=382. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "824"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_75(x), которая возвращает x + 14."}, {"role": "assistant", "content": "def sum_75(x):\n    return x + 14"}], "category": "code_generation"}
+{"messages": [{"role": "user", "content": "Вычисли точно: (630 + 558) * 4."}, {"role": "assistant", "content": "4752"}], "category": "arithmetic"}
+{"messages": [{"role": "user", "content": "Причинная модель: Z = 2*X + 3*Y. При do(X=827), Y=15. Найди Z."}, {"role": "assistant", "content": "1699"}], "category": "causal_do"}
+{"messages": [{"role": "user", "content": "Переменные: x=490, y=237. Затем x=x+y, y=x-y. Чему равно y?"}, {"role": "assistant", "content": "490"}], "category": "state_tracking"}
+{"messages": [{"role": "user", "content": "Напиши Python-функцию sum_79(x), которая возвращает x + 17."}, {"role": "assistant", "content": "def sum_79(x):\n    return x + 17"}], "category": "code_generation"}

@@ -1,0 +1,38 @@
+{
+  "source": "reports/USER_LOCAL_WINDOWS_RESULTS_2026-10-19.txt",
+  "platform": "Windows 11",
+  "python": "3.14.3",
+  "torch": "2.14.1+cpu",
+  "cuda_available": false,
+  "nvcc_found": true,
+  "tests": {
+    "run": 53,
+    "passed": 52,
+    "skipped": 1
+  },
+  "params": 2273480,
+  "validation": {
+    "before_nll": 3.1340118,
+    "after_nll": 2.5612756,
+    "before_ppl": 22.9659304,
+    "after_ppl": 12.9523292,
+    "targets": 7362
+  },
+  "quality": {
+    "correct": 0,
+    "total": 8,
+    "tasks": [
+      "arithmetic",
+      "causal_do",
+      "state_tracking",
+      "code_generation"
+    ]
+  },
+  "cpu_decode": {
+    "threads": 2,
+    "eager_tps": 135.0,
+    "traced_tps": 220.47,
+    "speedup": 1.633,
+    "max_abs_logits_diff": 0
+  }
+}

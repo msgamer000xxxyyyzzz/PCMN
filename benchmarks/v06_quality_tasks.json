@@ -1,0 +1,61 @@
+{
+  "count": 8,
+  "accuracy": 0.0,
+  "category_accuracy": {
+    "arithmetic": 0.0,
+    "causal_do": 0.0,
+    "state_tracking": 0.0,
+    "code_generation": 0.0
+  },
+  "rows": [
+    {
+      "category": "arithmetic",
+      "correct": false,
+      "target": "8982",
+      "prediction": "оенненнненнненнненнненнн�"
+    },
+    {
+      "category": "causal_do",
+      "correct": false,
+      "target": "1947",
+      "prediction": "еоеннненнненнненненнненн�"
+    },
+    {
+      "category": "state_tracking",
+      "correct": false,
+      "target": "588",
+      "prediction": "еннненнненнненнненненнне�"
+    },
+    {
+      "category": "code_generation",
+      "correct": false,
+      "target": "def sum_3(x):\n    return x + 42",
+      "prediction": "еннненнненнненнненнненнн�"
+    },
+    {
+      "category": "arithmetic",
+      "correct": false,
+      "target": "41412",
+      "prediction": "оенненнненнненнненнненнн�"
+    },
+    {
+      "category": "causal_do",
+      "correct": false,
+      "target": "1753",
+      "prediction": "еоенненнненнненненнненне�"
+    },
+    {
+      "category": "state_tracking",
+      "correct": false,
+      "target": "662",
+      "prediction": "еннненнненнненнненненнне�"
+    },
+    {
+      "category": "code_generation",
+      "correct": false,
+      "target": "def sum_7(x):\n    return x + 37",
+      "prediction": "енннненнненнненнненнненн�"
+    }
+  ],
+  "note": "Small generated exact-match tasks; not a coding benchmark like HumanEval"
+}

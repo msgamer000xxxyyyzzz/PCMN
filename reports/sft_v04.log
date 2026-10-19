@@ -1,0 +1,4 @@
+{"step": 1, "train_nll": 5.40164, "valid_nll": 5.23443, "parameters": 149700}
+{"step": 6, "train_nll": 4.65186, "valid_nll": 4.47699, "parameters": 149700}
+{"step": 12, "train_nll": 3.92866, "valid_nll": 3.81693, "parameters": 149700}
+Saved: runs/v04_sft_demo/last.pt

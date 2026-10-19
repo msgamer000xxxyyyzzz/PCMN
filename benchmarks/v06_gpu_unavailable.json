@@ -1,0 +1,1 @@
+{"status": "NOT_TESTED", "reason": "No CUDA device available", "cuda_available": false, "torch_version": "2.10.0+cpu", "cuda_runtime": null, "devices": []}

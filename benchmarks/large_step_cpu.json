@@ -1,0 +1,10 @@
+{
+  "profile": "30m",
+  "params": 30289748,
+  "device": "cpu",
+  "loss_before_update": 6.315502643585205,
+  "gradient_norm": 78.20866394042969,
+  "finite": true,
+  "one_training_step_seconds": 0.9477727710000181,
+  "full_training_complete": false
+}

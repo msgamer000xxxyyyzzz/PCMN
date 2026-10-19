@@ -1,0 +1,6 @@
+params: 2273480 device: cpu state slots: 2
+{"step": 18, "train_nll": 4.184034, "val_nll": 2.657492, "val_ppl": 14.26048, "tokens_per_sec_train_incl_eval": 1338.89, "elapsed_since_last_log_s": 0.57, "lr": 0.00014000000000000001, "grad_norm": 9.0404}
+{"step": 24, "train_nll": 3.412926, "val_nll": 2.541523, "val_ppl": 12.699, "tokens_per_sec_train_incl_eval": 1461.1, "elapsed_since_last_log_s": 0.53, "lr": 8.500000000000003e-05, "grad_norm": 7.0789}
+{"step": 30, "train_nll": 2.119401, "val_nll": 2.498116, "val_ppl": 12.15956, "tokens_per_sec_train_incl_eval": 1135.41, "elapsed_since_last_log_s": 0.68, "lr": 4.4737205583711745e-05, "grad_norm": 4.2131}
+{"step": 36, "train_nll": 2.158984, "val_nll": 2.467061, "val_ppl": 11.78775, "tokens_per_sec_train_incl_eval": 1290.36, "elapsed_since_last_log_s": 0.6, "lr": 3e-05, "grad_norm": 3.8436}
+Checkpoint: runs/v06_continued_demo/last.pt

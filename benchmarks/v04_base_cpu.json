@@ -1,0 +1,15 @@
+[
+  {
+    "checkpoint": "runs/v03_smoke/last.pt",
+    "precision": "fp32",
+    "params": 117192,
+    "threads": 2,
+    "prompt_tokens": 64,
+    "generated_tokens": 16,
+    "prefill_ms": 2.66,
+    "decode_including_prefill_ms": 13.66,
+    "isolated_decode_tokens_per_second": 1454.11,
+    "end_to_end_tokens_per_second": 1171.35,
+    "memory_slots": 4
+  }
+]

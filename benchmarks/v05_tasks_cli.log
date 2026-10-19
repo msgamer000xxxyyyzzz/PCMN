@@ -1,0 +1,1 @@
+{"count": 8, "accuracy": 0.0, "category_accuracy": {"arithmetic": 0.0, "causal_do": 0.0, "state_tracking": 0.0, "code_generation": 0.0}, "note": "Small generated exact-match tasks; not a coding benchmark like HumanEval"}

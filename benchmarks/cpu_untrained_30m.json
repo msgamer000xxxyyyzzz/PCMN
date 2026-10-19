@@ -1,0 +1,14 @@
+{
+  "model": "PCMN v0.3 30M (byte vocab)",
+  "training_status": "random untrained weights",
+  "params": 30298728,
+  "memory_slots": 4,
+  "vocab_size": 259,
+  "cpu_threads": 2,
+  "prompt_tokens": 128,
+  "generated_tokens": 20,
+  "prefill_ms": 169.1,
+  "decode_tokens_per_sec": 66.2,
+  "measurement": "one preliminary reference-PyTorch CPU run in tool container; not user EPYC; no warmup",
+  "quality": "not evaluated; model untrained"
+}

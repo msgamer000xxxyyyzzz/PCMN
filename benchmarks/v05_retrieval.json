@@ -1,0 +1,23 @@
+[
+  {
+    "distractor_sentences": 2048,
+    "tests": 12,
+    "retrieval_hit_at_3": 1.0,
+    "median_query_ms": 0.085,
+    "limitation": "Lexical recall only; NO LLM answer or comprehension test"
+  },
+  {
+    "distractor_sentences": 8192,
+    "tests": 12,
+    "retrieval_hit_at_3": 1.0,
+    "median_query_ms": 0.279,
+    "limitation": "Lexical recall only; NO LLM answer or comprehension test"
+  },
+  {
+    "distractor_sentences": 32768,
+    "tests": 12,
+    "retrieval_hit_at_3": 1.0,
+    "median_query_ms": 1.122,
+    "limitation": "Lexical recall only; NO LLM answer or comprehension test"
+  }
+]

@@ -1,0 +1,5 @@
+params: 116802 device: cpu state slots: 1
+{"step": 1, "train_nll": 5.987709, "val_nll": 6.021393, "val_ppl": 412.15235, "tokens_per_sec_train_incl_eval": 899.38, "elapsed_since_last_log_s": 0.07, "lr": 5.9999999999999995e-05, "grad_norm": 5.7529}
+{"step": 2, "train_nll": 5.861384, "val_nll": 5.97333, "val_ppl": 392.81175, "tokens_per_sec_train_incl_eval": 1943.38, "elapsed_since_last_log_s": 0.03, "lr": 0.00011999999999999999, "grad_norm": 5.2742}
+{"step": 3, "train_nll": 5.94129, "val_nll": 5.904004, "val_ppl": 366.50196, "tokens_per_sec_train_incl_eval": 1896.02, "elapsed_since_last_log_s": 0.03, "lr": 0.00017999999999999998, "grad_norm": 5.4345}
+Checkpoint: runs/v06_trainer_smoke/last.pt

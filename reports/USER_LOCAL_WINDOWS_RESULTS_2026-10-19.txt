@@ -1,0 +1,273 @@
+Такие результаты:
+
+1)
+
+(.venv) PS D:\Projects\PCMN> python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in d:\projects\pcmn\.venv\lib\site-packages (25.3)
+Collecting pip
+  Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.3
+    Uninstalling pip-25.3:
+      Successfully uninstalled pip-25.3
+Successfully installed pip-26.2.1
+(.venv) PS D:\Projects\PCMN> python -m unittest discover -s tests -v
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+test_causal_intervention (test_core.PCMNTests.test_causal_intervention) ... ok
+test_forward_matches_step (test_core.PCMNTests.test_forward_matches_step) ... ok
+test_language_loss_and_generation (test_core.PCMNTests.test_language_loss_and_generation) ... ok
+test_mirror_probability (test_core.PCMNTests.test_mirror_probability) ... ok
+test_multimodal_inputs_outputs (test_core.PCMNTests.test_multimodal_inputs_outputs) ... ok
+test_scan_and_gradients (test_core.PCMNTests.test_scan_and_gradients) ... ok
+test_chunked_scan_matches_dense_and_gradient (test_text_core.ChunkedAndBaselineTests.test_chunked_scan_matches_dense_and_gradient) ... ok
+test_transformer_causal_baseline (test_text_core.ChunkedAndBaselineTests.test_transformer_causal_baseline) ... ok
+test_pcmn_prefill_cache_matches_step_beyond_chunk (test_text_core.PrefillTests.test_pcmn_prefill_cache_matches_step_beyond_chunk) ... ok
+test_transformer_kv_cache_matches_full_forward (test_text_core.PrefillTests.test_transformer_kv_cache_matches_full_forward) ... ok
+test_causality_future_token_cannot_change_past (test_text_core.TextCoreTests.test_causality_future_token_cannot_change_past) ... ok
+test_forward_and_token_steps_exact (test_text_core.TextCoreTests.test_forward_and_token_steps_exact) ... ok
+test_tokenizer_and_no_data_leakage (test_text_core.TextCoreTests.test_tokenizer_and_no_data_leakage) ... ok
+test_training_and_grads (test_text_core.TextCoreTests.test_training_and_grads) ... ok
+test_zero_conv_history_kernel_one (test_text_core.TextCoreTests.test_zero_conv_history_kernel_one) ... ok
+test_bin_corpus_and_contiguous_chunks (test_v03.DatasetTests.test_bin_corpus_and_contiguous_chunks) ... ok
+test_chat_masks_prompt (test_v03.DatasetTests.test_chat_masks_prompt) ... ok
+test_cross_split_duplicate_rejected (test_v03.DatasetTests.test_cross_split_duplicate_rejected) ... ok
+test_sampler_cannot_cross_document_boundaries (test_v03.DatasetTests.test_sampler_cannot_cross_document_boundaries) ... ok
+test_allowlisted_tools_and_path_escape (test_v03.HostTests.test_allowlisted_tools_and_path_escape) ... ok
+test_safe_arithmetic_disallows_code (test_v03.HostTests.test_safe_arithmetic_disallows_code) ... ok
+test_tool_protocol (test_v03.HostTests.test_tool_protocol) ... ok
+test_memory_future_cannot_change_past (test_v03.MemoryTests.test_memory_future_cannot_change_past) ... ok
+test_memory_has_nonzero_grad_after_training (test_v03.MemoryTests.test_memory_has_nonzero_grad_after_training) ... ok
+test_old_config_checkpoint_shape (test_v03.MemoryTests.test_old_config_checkpoint_shape) ... ok
+test_scan_nonzero_initial_grad (test_v03.MemoryTests.test_scan_nonzero_initial_grad) ... ok
+test_stateful_chunk_equals_long_forward (test_v03.MemoryTests.test_stateful_chunk_equals_long_forward) ... ok
+test_address_chunk_matches_full_step (test_v04.V04Tests.test_address_chunk_matches_full_step) ... ok
+test_address_memory_causal (test_v04.V04Tests.test_address_memory_causal) ... ok
+test_address_memory_receives_grad (test_v04.V04Tests.test_address_memory_receives_grad) ... ok
+test_curation_license_exact_dedup (test_v04.V04Tests.test_curation_license_exact_dedup) ... ok
+test_devtools_default_denied (test_v04.V04Tests.test_devtools_default_denied) ... ok
+test_grad_still_uses_autograd (test_v04.V04Tests.test_grad_still_uses_autograd) ... ok
+test_load_v03_checkpoint (test_v04.V04Tests.test_load_v03_checkpoint) ... ok
+test_native_scan_exact_forward (test_v04.V04Tests.test_native_scan_exact_forward) ... skipped 'Native library not built'
+test_shard_matches_reference (test_v04.V04Tests.test_shard_matches_reference) ... ok
+test_suite_generation_and_syntax (test_v04.V04Tests.test_suite_generation_and_syntax) ... ok
+test_pytorch_cuda_reference_gradient_closed_form (test_v05.BackendV05.test_pytorch_cuda_reference_gradient_closed_form) ... ok
+test_traced_decode_matches_eager_with_cache (test_v05.BackendV05.test_traced_decode_matches_eager_with_cache) ... D:\Projects\PCMN\.venv\Lib\site-packages\torch\jit\_trace.py:1000: FutureWarning: `torch.jit.trace` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\jit\_trace.py:1139: FutureWarning: `torch.jit.trace_method` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+ok
+test_bpe_jsonl_iterator_uses_only_text (test_v05.CorpusV05.test_bpe_jsonl_iterator_uses_only_text) ... ok
+test_v04_model_strict_load (test_v05.CorpusV05.test_v04_model_strict_load) ... ok
+test_dedup_and_chunk_bounds (test_v05.RetrievalV05.test_dedup_and_chunk_bounds) ... ok
+test_long_document_retrieval (test_v05.RetrievalV05.test_long_document_retrieval) ... ok
+test_no_irrelevant_memories (test_v05.RetrievalV05.test_no_irrelevant_memories) ... ok
+test_unicode_exact_hit_and_persistence (test_v05.RetrievalV05.test_unicode_exact_hit_and_persistence) ... ok
+test_audit_detects_exact_and_source_leakage (test_v06.EvalV06.test_audit_detects_exact_and_source_leakage) ... ok
+test_curation_source_split_never_crosses (test_v06.EvalV06.test_curation_source_split_never_crosses) ... ok
+test_exhaustive_loss_matches_full_forward (test_v06.EvalV06.test_exhaustive_loss_matches_full_forward) ... ok
+test_grounded_no_hit (test_v06.EvalV06.test_grounded_no_hit) ... ok
+test_grounded_snippets_quoted_not_executed (test_v06.EvalV06.test_grounded_snippets_quoted_not_executed) ... ok
+test_no_cross_document_state (test_v06.EvalV06.test_no_cross_document_state) ... ok
+test_v05_checkpoint_unchanged (test_v06.EvalV06.test_v05_checkpoint_unchanged) ... ok
+test_validation_reject_bad_boundaries (test_v06.EvalV06.test_validation_reject_bad_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 6.625s
+
+OK (skipped=1)
+
+---
+
+2)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.hardware_preflight_v06 --out benchmarks\hardware_local.json
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{
+  "python": "3.14.3",
+  "system": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "torch": "2.14.1+cpu",
+  "cpu_threads_logical": 48,
+  "torch_threads": 24,
+  "cuda_available": false,
+  "torch_cuda_version": null,
+  "nvcc_found": true,
+  "devices": [],
+  "recommendations": [
+    "CPU mode: --device cpu --precision fp32",
+    "Use a supported PyTorch/CUDA build for the actual GPU; verify sm_60 for Tesla P100.",
+    "Tesla P100: FP16 can be tested, BF16 is unsupported.",
+    "GPU kernel must be COMPILED and VALIDATED locally before any speed claims."
+  ]
+}
+
+---
+
+3)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.evaluate_exhaustive_v06 --checkpoint runs/v05_mini_demo/last.pt --corpus data/technical_bin --context 96 --threads 2
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{
+  "checkpoint": "runs\\v05_mini_demo\\last.pt",
+  "corpus": "data\\technical_bin",
+  "checkpoint_metadata": {
+    "step": 12,
+    "architecture": "pcmn",
+    "model_config": {
+      "vocab_size": 259,
+      "dim": 192,
+      "layers": 4,
+      "ff_mult": 3,
+      "conv_kernel": 4,
+      "dropout": 0.0,
+      "grad_checkpoint": false,
+      "scan_chunk": 128,
+      "memory_slots": 2,
+      "memory_base_half_life": 32,
+      "addressable_slots": 0
+    },
+    "tokenizer": "byte"
+  },
+  "corpus_metadata": {
+    "format": "PCMN-u32le-v1",
+    "tokenizer": "byte",
+    "vocab_size": 259,
+    "train_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_train.txt"
+    ],
+    "valid_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_valid.txt"
+    ],
+    "train": {
+      "tokens": 11599,
+      "documents": 1
+    },
+    "valid": {
+      "tokens": 7363,
+      "documents": 1
+    }
+  },
+  "validation_nll": 3.1340118,
+  "perplexity": 22.9659304,
+  "targets": 7362,
+  "documents": 1,
+  "skipped_documents": 0,
+  "context_chunk": 96,
+  "device": "cpu",
+  "elapsed_seconds": 3.501,
+  "definition": "Exhaustive teacher-forced validation; resets state at document boundaries",
+  "note": "Next-token likelihood is not generative/coding/tool-use quality"
+}
+
+---
+
+4)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.train_streaming --corpus data/technical_bin --resume runs/v05_mini_demo/last.pt --steps 36 --context 64 --segments 2 --batch-size 1 --grad-accum 1 --lr 0.00025 --min-lr 0.00003 --warmup 0 --eval-every 6 --save-every 12 --eval-batches 3 --num-threads 2 --device cpu --precision fp32 --out runs/v06_my_run
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+params: 2273480 device: cpu state slots: 2
+{"step": 18, "train_nll": 4.184034, "val_nll": 2.657492, "val_ppl": 14.26048, "tokens_per_sec_train_incl_eval": 428.94, "elapsed_since_last_log_s": 1.79, "lr": 0.00014000000000000001, "grad_norm": 9.0404}
+{"step": 24, "train_nll": 3.412926, "val_nll": 2.541523, "val_ppl": 12.699, "tokens_per_sec_train_incl_eval": 367.79, "elapsed_since_last_log_s": 2.09, "lr": 8.500000000000003e-05, "grad_norm": 7.0789}
+{"step": 30, "train_nll": 2.119401, "val_nll": 2.498116, "val_ppl": 12.15956, "tokens_per_sec_train_incl_eval": 440.72, "elapsed_since_last_log_s": 1.74, "lr": 4.4737205583711745e-05, "grad_norm": 4.2131}
+{"step": 36, "train_nll": 2.158984, "val_nll": 2.467061, "val_ppl": 11.78775, "tokens_per_sec_train_incl_eval": 433.85, "elapsed_since_last_log_s": 1.77, "lr": 3e-05, "grad_norm": 3.8436}
+Checkpoint: runs\v06_my_run\last.pt
+
+---
+
+5)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.evaluate_exhaustive_v06 --checkpoint runs/v06_my_run/last.pt --corpus data/technical_bin --context 96 --threads 2
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{
+  "checkpoint": "runs\\v06_my_run\\last.pt",
+  "corpus": "data\\technical_bin",
+  "checkpoint_metadata": {
+    "step": 36,
+    "architecture": "pcmn",
+    "model_config": {
+      "vocab_size": 259,
+      "dim": 192,
+      "layers": 4,
+      "ff_mult": 3,
+      "conv_kernel": 4,
+      "dropout": 0.0,
+      "grad_checkpoint": false,
+      "scan_chunk": 128,
+      "memory_slots": 2,
+      "memory_base_half_life": 32,
+      "addressable_slots": 0
+    },
+    "tokenizer": "byte"
+  },
+  "corpus_metadata": {
+    "format": "PCMN-u32le-v1",
+    "tokenizer": "byte",
+    "vocab_size": 259,
+    "train_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_train.txt"
+    ],
+    "valid_paths": [
+      "/mnt/data/PCMN_text_v0.3/data/technical_valid.txt"
+    ],
+    "train": {
+      "tokens": 11599,
+      "documents": 1
+    },
+    "valid": {
+      "tokens": 7363,
+      "documents": 1
+    }
+  },
+  "validation_nll": 2.5612756,
+  "perplexity": 12.9523292,
+  "targets": 7362,
+  "documents": 1,
+  "skipped_documents": 0,
+  "context_chunk": 96,
+  "device": "cpu",
+  "elapsed_seconds": 2.953,
+  "definition": "Exhaustive teacher-forced validation; resets state at document boundaries",
+  "note": "Next-token likelihood is not generative/coding/tool-use quality"
+}
+
+---
+
+6)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.eval_tasks --checkpoint runs/v06_my_run/last.pt --count 8 --seed 999 --tokens 50
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+{"count": 8, "accuracy": 0.0, "category_accuracy": {"arithmetic": 0.0, "causal_do": 0.0, "state_tracking": 0.0, "code_generation": 0.0}, "note": "Small generated exact-match tasks; not a coding benchmark like HumanEval"}
+
+---
+
+7)
+
+(.venv) PS D:\Projects\PCMN> python -m scripts.bench_traced_cpu --checkpoint runs/v06_my_run/last.pt --tokens 64 --threads 2 --repeats 5
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\_subclasses\functional_tensor.py:368: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\jit\_trace.py:1000: FutureWarning: `torch.jit.trace` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+D:\Projects\PCMN\.venv\Lib\site-packages\torch\jit\_trace.py:1139: FutureWarning: `torch.jit.trace_method` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+{
+  "checkpoint": "runs\\v06_my_run\\last.pt",
+  "params": 2273480,
+  "threads": 2,
+  "length": 64,
+  "backend": "torchscript_trace_step",
+  "device": "cpu",
+  "eager_tps": 135.0,
+  "traced_tps": 220.47,
+  "speedup": 1.633,
+  "max_abs_logits_diff": 0
+}
+
+

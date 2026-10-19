@@ -1,0 +1,12 @@
+{
+  "checkpoint": "runs/v06_continued_demo/last.pt",
+  "params": 2273480,
+  "threads": 2,
+  "length": 64,
+  "backend": "torchscript_trace_step",
+  "device": "cpu",
+  "eager_tps": 467.5,
+  "traced_tps": 691.42,
+  "speedup": 1.479,
+  "max_abs_logits_diff": 0
+}
